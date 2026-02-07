@@ -3746,7 +3746,7 @@ def main():
     st.sidebar.markdown("### 📁 Data Source")
     data_source = st.sidebar.radio(
         "Choose Data Source",
-        ["Use Sample Data", "Upload CSV/Excel"],
+        ["Upload CSV/Excel", "Use Sample Data"],
         index=0
     )
     
